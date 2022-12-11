@@ -14,8 +14,8 @@ export const Navigation = () => {
             <Stack.Navigator>
                 <Stack.Screen name="Login" component={Login} options={{ title: 'Вход' }} />
                 <Stack.Screen name="Register" component={Register} options={{ title: 'Регистрация' }} />
-                <Stack.Screen name="MainScreen" component={MainScreen} options={{ title: 'Главная' }} />
                 <Stack.Screen name="Home" component={Home} options={{ title: 'Товары' }} />
+                <Stack.Screen name="MainScreen" component={MainScreen} options={{ title: 'Главная' }} />
                 <Stack.Screen name="FullPost" component={FullPost} />
 
             </Stack.Navigator>
